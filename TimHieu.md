@@ -1,17 +1,17 @@
 
 # Cấu trúc cơ bản
-- <!DOCTYPE html>: khai báo rằng trang web được hiển thị bằng html, phải được khai báo
-- Thẻ <html>: cho trình duyệt biết đây là tài liệu HTML, là nơi chứa tất cả các thành phần khác ngoại trừ <!DOCTYPE html>:
-- <head>: chứa tất cả các phần ban đầu, như là title, style, link, meta, script, ...
-- <meta />: cung cấp thông tin dữ liệu về văn bản HTML, thông tin dữ liệu sẽ không được hiển thị trên trình duyệt, hường được sử dụng để xác định mô tả trang, từ khóa , tác giả của văn bản, sửa đổi lần cuối, và thông tin dữ liệu khác.
-- <title>: tiêu đề cho trang web.
-- </head>: kết thúc phần <head>
-- <body>: Phần thân của tài liệu chứa tất cả văn bản, liên kết,…
+- <!-- <!DOCTYPE html> -->: khai báo rằng trang web được hiển thị bằng html, phải được khai báo
+- The html: cho trình duyệt biết đây là tài liệu HTML, là nơi chứa tất cả các thành phần khác ngoại trừ <!DOCTYPE html>:
+- head: chứa tất cả các phần ban đầu, như là title, style, link, meta, script, ...
+- meta : cung cấp thông tin dữ liệu về văn bản HTML, thông tin dữ liệu sẽ không được hiển thị trên trình duyệt, hường được sử dụng để xác định mô tả trang, từ khóa , tác giả của văn bản, sửa đổi lần cuối, và thông tin dữ liệu khác.
+- title: tiêu đề cho trang web.
+- <!-- </head> -->: kết thúc phần <!-- <head> -->
+-<!--  <body> -->: Phần thân của tài liệu chứa tất cả văn bản, liên kết,…
 # Thẻ heading
 - Định nghĩa tiêu đề của một trang web
-- Trong đó <h1> là thể hiện tiêu đề chính. Tiếp theo là các tiêu đề <h2> <h3> <h4> <h5> <h6> giảm giần về sự quan trọng hơn so với tiêu đề phía trước nó
+- Trong đó <!-- <h1> --> là thể hiện tiêu đề chính. Tiếp theo là các tiêu đề <!-- <h2> <h3> <h4> <h5> <h6> --> giảm giần về sự quan trọng hơn so với tiêu đề phía trước nó
 # Thẻ paragraph
-- Thẻ <p> là thể hiện là một đoạn
+- Thẻ <!-- <p> --> là thể hiện là một đoạn
 # Thẻ link
 - Link dùng để liên kết với tài nguyên và file bên ngoài
 - Href chỉ định vị trí được liên kết giá trị là các url
@@ -23,13 +23,13 @@
 - Các alt thuộc tính cung cấp một văn bản thay thế cho hình ảnh, nếu người sử dụng đối với một số lý do không thể xem nó.
 - widthvà height: kích thước của ảnh.
 # Thẻ list
-- <ul> xác định danh sách không có thứ tự 
-- <ol> xác định danh sách theo thứ tự
-- <dl> xác định danh sách (có đề mục và phần mô tả đề mục)., có thể có nhiều thẻ đ cho 1 dt
-- Lồng danh sách Để làm việc đó bạn chỉ cần chèn thêm 1 danh sách nữa vào giữa cặp thẻ <li> </li> là được.
+- <!-- <ul> --> xác định danh sách không có thứ tự 
+- <!-- <ol> --> xác định danh sách theo thứ tự
+- <!-- <dl> --> xác định danh sách (có đề mục và phần mô tả đề mục)., có thể có nhiều thẻ đ cho 1 dt
+- Lồng danh sách Để làm việc đó bạn chỉ cần chèn thêm 1 danh sách nữa vào giữa cặp thẻ <!-- <li> </li> --> là được.
 # Thẻ table
-- <th> là tiêu đề, hay tên của cột
-- <td> là giá trị của 1 ô đó
+- <!-- <th> --> là tiêu đề, hay tên của cột
+- <!-- <td> --> là giá trị của 1 ô đó
 - Rowspan nối ô trên dưới
 - Vì row này 1 ô đã được nối với ô ở trên nhờ thuộc tính Rowspan
 - Vì row này vừa có thuộc tính Rowspan và colspan
