@@ -47,7 +47,7 @@
 - Selected tùy chọn mặc định, sẽ hiển thị cái selected
 # Thẻ trung tính
 - Thẻ span là thẻ  được thêm vào đoạn văn nhưng không làm thay đổi thuộc tính cũng như hiển thị của đoạn văn đó
-- Div được sử dụng để định nghĩa một khu vực trong trang web của bạn. 
+- Div được sử dụng để định nghĩa một khu vực trong trang web của. 
 - Thẻ span  thẻ Span thường dùng để định dạng cho một chữ hoặc mội chuỗi chữ muốn định dạng, thẻ span không xuống hàng, mà thẻ Div sẽ bị xuống hàng.
 # Style
 - Inline CSS được sử dụng cho một thẻ HTML xác định. Cách viết này sẽ rất khó để quản lí trang web cũng như sửa.
