@@ -49,6 +49,9 @@
 - Thẻ span là thẻ  được thêm vào đoạn văn nhưng không làm thay đổi thuộc tính cũng như hiển thị của đoạn văn đó
 - Div được sử dụng để định nghĩa một khu vực trong trang web của bạn. 
 # Style
-- Biểu thị kiểu nội bộ và liên kết
+- Inline CSS được sử dụng cho một thẻ HTML xác định. Cách viết này sẽ rất khó để quản lí trang web cũng như sửa.
+- External thêm Style CSS vào website là liên kết với một file .css ở bên ngoài., sẽ được đặt link trong mục head của trang
+
 # Thẻ script 
-- Sử dụng nội bộ và liên kết
+- Scrip inline là sử dụng viết code ngay trong script trong file html
+- Script load là sẽ sử dụng đường link đến file .js trong thẻ script
