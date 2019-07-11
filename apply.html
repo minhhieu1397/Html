@@ -4,26 +4,30 @@
 	<meta charset="UTF-8">
 	<title>Apply</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
 </head>
 <body>
-	<div class="title">
-		<h1>Apply</h1>
-	</div>
-	
-	<div>	
-		Username: tuanlq <br>
-		Job: it job
-	</div>
-	
-	<div class="input">
-		<label for="input-message">Message:</label>
-		<div>
-			<input class="input__message" type="text" name="input-message" id="input-message" placeholder="Text">
-		</div>
-	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-offset">
+				<form>
+					<h1>Apply</h1>
+			
+					<div>	
+						Username: tuanlq <br>
+						Job: it job
+					</div>
 
-	<div class="button">
-		<button type="button">Apply</button>
+					<div class="form-group">
+						<textarea  rows="4" cols="50" placeholder="Text"></textarea>
+					</div>
+
+					<div class="container__button">
+						<button type="button" class="btn-primary">Apply</button>
+					</div>
+				</form>
+			</div>
+		</div>
 	</div>
 </body>
 </html>
