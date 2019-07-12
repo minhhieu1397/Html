@@ -22,7 +22,7 @@
 - container cho một container có chiều rộng đáp ứng.
 - container-fluid cho bộ chứa chiều rộng đầy đủ, trải rộng toàn bộ chiều rộng của chế độ xem.
 # Cách mix các suffix trong cùng 1 row
-- col-md- sẽ có 12 cột, thì trong row tổng các col-md- sẽ là 12
+- col-md- sẽ có 12 cột, thì trong row tổng các col-md- sẽ là 12. vd: col-md-2 sẽ là gộp 2 cột đon vị lại thành 1 cột.
 # Sử dụng nhiều prefix
 - Khi web đc xem ở màn hình lớn sẽ có thiết kế col-lg nhưng nếu sang màn hình nhỏ thì bố cục sẽ bị rối, vậy ta phải thêm col-xs vào để khi ta truy cập bằng màn hình nhỏ bố cục vẫn sẽ đẹp như ta thiết kế
 # Sử dụng sử dụng offset
