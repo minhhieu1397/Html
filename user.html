@@ -3,13 +3,12 @@
 <head>
 	<meta charset="UTF-8">
 	<title>User</title>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
 </head>
 <body>
 	<div class="container">
 		<div class="row">
-			<div class="col">
+			<div class="col-md-4 col-md-offset-4">
 				<h1>User</h1>
 
 				<div class="form-group">
@@ -35,15 +34,19 @@
 
 				<div class="form-group">
 					<div>Skills:</div>
-					<form>
+					<label class="checkbox-inline">
 						<input name="Business" type="checkbox" value="business" checked="checked"/>Business
+					</label>
+					<label class="checkbox-inline">
 						<input name="Math" type="checkbox" value="math" />Math
-						<input name="It" type="checkbox" value="it" />IT
-					</form>
+					</label>
+					<label class="checkbox-inline">
+						<input name="Math" type="checkbox" value="it" />IT
+					</label>
 				</div>
 
 				<div class="form-group">
-					<button type="button" class="btn-primary">Save</button>
+					<a href="index.html"><button type="submit" class="btn-primary">Save</button></a>
 				</div>
 			</div>
 		</div>
